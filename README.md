@@ -1,7 +1,7 @@
 # KAT Software Solutions: Inventory Management Systems
 
 ## Deployed Link
-
+https://zingy-salamander-37c1c6.netlify.app/
 
 ## About
 Inventory management software for pharmacies, utilizing the FDA open drug API. Pharmacies can monitor the current inventory to help make decisions on placing additional orders to minimize over / under stocking and ultimately
