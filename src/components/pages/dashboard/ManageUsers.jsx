@@ -91,11 +91,13 @@ export default function ManageUsers({ currentUser, users, setUsers }) {
           </tbody>
         </table>
       </div>
-      { showUserEdit ?
-        <UserEdit currentUser={currentUser} users={users} setUsers={setUsers} userId={userId} setUserId={userId} />
-        :
-        null
-      }
+      <div>
+        { showUserEdit ?
+          <UserEdit currentUser={currentUser} users={users} setUsers={setUsers} userId={userId} setUserId={userId} />
+          :
+          null
+        }
+      </div>
     </>
   )
 }
